@@ -32,5 +32,3 @@ firebase login
 firebase init
 
 firebase deploy
-
-<!-- 29.3084021, 30.8428497 -->

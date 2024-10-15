@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import React from "react";
 import { useRef } from "react";
@@ -20,10 +21,12 @@ const MovieDetails = ({
     const [isLoading, setIsLoading] = useState(false);
     const [userRating, setUserRating] = useState("");
 
+    // console.log(`use:-`, userRating);
+
     const countRef = useRef(0);
 
     const [error, setError] = useState(""); // غير موجود
-    console.log(`error:-`, error);
+    // console.log(`error:-`, error);
 
     useEffect(
         function () {
